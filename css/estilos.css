@@ -1,0 +1,166 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+p{
+	font-size: 14px;
+	font-family: arial;
+	line-height: 20px;
+}
+h3{
+	color: #CCC;
+	background: url(../imagenes/h11.png) repeat-x;
+	border-radius: 10px 10px 0 0;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 100%;
+}
+h4{
+	font-size: 16px;
+	font-family: verdana;
+	font-weight: bold;
+}
+header{
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px #160142;
+	background: url('../imagenes/h11.png');
+	height: 150px;
+	width: 960px;
+}
+header h1{
+	text-shadow: 1px 1px 7px #FFF;
+	color: #FFF;
+	font-family: verdana;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 150px;
+	margin-top: 10px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+nav{
+	margin-top: 3px;
+	border-radius:10px;
+	background: url('../imagenes/h3.jpg');
+	margin: auto;
+	width: 960px;
+}
+nav ul{
+	list-style: none;
+	padding: 20px 30px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a{
+	color: #FFF;
+	font-size: 0.8em;
+	font-weight: bold;
+	display: inline;
+	padding: 20px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav li a:hover{
+	background-color: cornflowerblue;
+	color: #fff;
+}
+#slider{
+	background-color: black;
+	border-radius: 10px;
+	box-sizing: 20px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+#slider img{
+	height: 350px;
+}
+#continicio{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+#continicio h2{
+	font-size: 40px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+#slider figure img{
+	display: block;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px #000;
+	opacity: .9;
+	width: 100%;
+}
+.contenido{
+	background: url('../imagenes/fondo_interior.png') #CFFFBF;
+	border-radius: 10px;
+	margin-top: 3px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+
+
+.articulos{
+	padding: 10px;
+}
+.articulos img{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.serv1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 25px;
+	display: inline-block;
+	width: 280px;
+}
+
+.serv1 img{
+	border-radius: 10px;
+	border:1px solid #000;
+	margin-top: 10px;
+	height: 150px;
+	width: 100%;
+}
+
+footer{
+	border-radius: 10px;
+	background: url(../imagenes/FondoFooter.jpg);
+	height: 75px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+footer p{
+	color: #FFF;
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 75px;
+	vertical-align: middle;
+}
+
+img{
+	width: 100%;
+}
