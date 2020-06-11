@@ -5,34 +5,20 @@
 	<title>Sofweb Mascadito</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="../web/css/estilos.css">
-	<link rel="stylesheet" href="../web/css/respose.css">
+	
 
 
-	
-	
+
+	<?php
+		include "includes/estilo.php";
+	?>
 </head>
 <body>
-
-	<header>
-		<h1> Softweb Mascadito</h1>
-	</header>
-
-	<nav>
-		<ul>
-		<li><a href="index.html">Inicio</a></li>
-		<li><a href="../proyectos.php">Proyectos</a></li>
-		<li><a href="../contacto.php">Contacto</a></li>
-		<li><a href="../contacto.php">Libro de Visitas</a></li>
-		</ul>
-	</nav>
-	<section id="slider">
-		<figure>
-			<img src="imagenes/SOFTWEB MASCADITO.png" />
-			
-		</figure>
-	
-	</section>
+	<?php
+		include "includes/header.php";
+		include "includes/nav.php";
+		include "includes/slider.php";
+	?>
 	<section class="contenido">
 			<h3>Servicios</h3>
 			<article class="serv1">
