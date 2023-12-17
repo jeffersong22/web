@@ -1,0 +1,171 @@
+
+
+
+
+
+
+
+
+
+/* Estilos para las etiquetas li con clase "volver" y enlaces */
+.volver {
+    list-style: none; /* Elimina los marcadores de lista predeterminados */
+    background-color: #0000;
+
+}
+
+.volver a {
+    display: inline-block;
+    padding: 3px 4px;
+    text-decoration: none; /* Elimina la decoración de subrayado predeterminada */
+    border-radius: 5px;
+    color: #ffffff; /* Color del texto del enlace */
+    font-size: 27px;
+}
+
+.volver a:hover {
+    background-color: #69fff8; /* Cambio de color de fondo al pasar el cursor */
+    color: #000000; /* Cambio de color del texto al pasar el cursor */
+}
+
+
+
+
+/* Estilo de la sección de proyectos */
+.project-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+
+  }
+  
+  .project {
+    text-align: center;
+    margin: 20px;
+    flex-basis: calc(33.33% - 40px);
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilo de los carruseles */
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .carousel-slide {
+    min-width: 100%;
+    transition: transform 0.5s;
+  }
+  
+  /* Estilo de los títulos de proyectos */
+  .project h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  
+  /* Estilo de las imágenes en los carruseles */
+  .carousel-slide img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  /* Estilo de la descripción del proyecto */
+  .descripcion {
+    margin-top: 20px;
+    text-align: left;
+    color: #ddd;
+  }
+  
+  .descripcion h3 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .descripcion p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  
+  /* Estilo del video */
+  .video-container {
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción 16:9 para mantener el video en un contenedor */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+
+  
+    /* Estilos generales para la sección de proyectos */
+    .project-carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Estilos generales para los proyectos */
+    .project {
+        max-width: 800px; /* Ajusta el ancho máximo según tu diseño */
+        margin: 10px;
+        padding: 20px;
+        background-color: #06201a; /* Cambia el color de fondo según tu preferencia */
+        border-style: double;
+        border-color: #5ff0cc;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 15px 15px 15px #5ff0cc;
+    }
+
+    
+
+    /* Estilos para las imágenes dentro del carrusel */
+    .carousel img {
+        width: 100%; /* Hace que las imágenes se ajusten al ancho del contenedor */
+        max-width: 100%; /* Evita que las imágenes se desborden en pantallas pequeñas */
+        height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    }
+
+    /* Estilos para videos responsivos */
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* Proporción de aspecto del video (16:9) */
+        padding-top: 25px;
+        height: 0;
+    }
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+   
+    
